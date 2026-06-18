@@ -1,0 +1,51 @@
+Started by user [8mha:////4EWGUAohH8QmQzZ7FuiYC/gnh30htgiwMgDJQ4EOQNDGAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9nNQKABgZepe+AAAA[0mlex
+Running as SYSTEM
+Building remotely on [8mha:////4Pb087PMPzV+16YRYTg3ziCEPs3c9Rap35nALKJHTV0gAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/cS84syknFTd3MRiIBcAMKjG3s0AAAA=[0mansible-master (centos ansible) in workspace /root/jenkins/workspace/Parametr
+[Parametr] $ /bin/sh -xe /tmp/jenkins6149197885152538149.sh
++ ls -la /var/log
+загалом 4056
+drwxr-xr-x. 10 root   root      4096 сер 10 03:32 .
+drwxr-xr-x. 21 root   root      4096 лип 27 15:29 ..
+drwxr-xr-x.  2 root   root      4096 лип 13 14:01 anaconda
+drwx------.  2 root   root        42 сер  7 17:46 audit
+-rw-------.  1 root   root         0 сер 10 03:32 boot.log
+-rw-------.  1 root   root     56586 лип 28 03:42 boot.log-20210728
+-rw-------.  1 root   root      7047 лип 29 05:14 boot.log-20210729
+-rw-------.  1 root   root     12333 лип 30 09:13 boot.log-20210730
+-rw-------.  1 root   root     19906 сер  4 06:23 boot.log-20210804
+-rw-------.  1 root   root     87044 сер  8 15:13 boot.log-20210808
+-rw-------.  1 root   root      6326 сер 10 03:32 boot.log-20210810
+-rw-rw----.  1 root   utmp      2688 сер  7 17:48 btmp
+-rw-rw----.  1 root   utmp      1152 лип 28 02:32 btmp-20210804
+drwxr-xr-x.  2 chrony chrony       6 бер  2 02:01 chrony
+-rw-------.  1 root   root     10619 сер 10 06:01 cron
+-rw-------.  1 root   root     15998 сер  4 06:23 cron-20210804
+-rw-------.  1 root   root      7466 сер  8 15:01 cron-20210808
+-rw-r--r--.  1 root   root    105290 сер 10 06:30 dnf.librepo.log
+-rw-r--r--.  1 root   root    326218 сер 10 06:30 dnf.log
+-rw-r--r--.  1 root   root     24055 сер 10 06:30 dnf.rpm.log
+-rw-r-----.  1 root   root      8050 сер  9 15:03 firewalld
+-rw-r--r--.  1 root   root       660 сер 10 03:35 hawkey.log
+-rw-r--r--.  1 root   root      6540 сер  4 05:53 hawkey.log-20210804
+-rw-r--r--.  1 root   root      1260 сер  8 15:09 hawkey.log-20210808
+drwx------.  2 root   root        94 сер  9 03:10 httpd
+-rw-r--r--.  1 root   root     21627 сер  9 15:03 kdump.log
+-rw-rw-r--.  1 root   utmp    291708 сер  9 18:26 lastlog
+-rw-------.  1 root   root         0 сер  8 15:13 maillog
+-rw-------.  1 root   root         0 лип 13 13:52 maillog-20210804
+-rw-------.  1 root   root         0 сер  4 06:23 maillog-20210808
+-rw-------.  1 root   root    421778 сер 10 06:33 messages
+-rw-------.  1 root   root   1558851 сер  4 06:21 messages-20210804
+-rw-------.  1 root   root   1040562 сер  8 15:09 messages-20210808
+drwx------.  2 root   root         6 лип 13 13:50 private
+drwxr-xr-x.  2 root   root         6 тра 20 12:26 qemu-ga
+-rw-------.  1 root   root      9159 сер 10 04:09 secure
+-rw-------.  1 root   root     48351 сер  4 05:06 secure-20210804
+-rw-------.  1 root   root     16687 сер  8 14:31 secure-20210808
+-rw-------.  1 root   root         0 сер  8 15:13 spooler
+-rw-------.  1 root   root         0 лип 13 13:52 spooler-20210804
+-rw-------.  1 root   root         0 сер  4 06:23 spooler-20210808
+drwxr-x---.  2 sssd   sssd      4096 сер  8 15:13 sssd
+drwxr-xr-x.  2 root   root        23 лип 13 14:18 tuned
+-rw-rw-r--.  1 root   utmp    237312 сер  9 18:34 wtmp
+Finished: SUCCESS

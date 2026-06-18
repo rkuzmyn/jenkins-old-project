@@ -1,0 +1,14 @@
+Started on 9 серп. 2021 р., 21:28:19
+Started by event from 140.82.115.149 ⇒ http://jenkins.local:8080/github-webhook/ on пн серп. 09 21:28:19 EDT 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision cae235ab461d4e0c39cb601a733c6d9d9253a5d3 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential id_rsa
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials id_rsa
+ > git ls-remote -h -- git@github.com:rkuzmyn/web.git # timeout=10
+Found 1 remote heads on git@github.com:rkuzmyn/web.git
+[poll] Latest remote head revision on refs/heads/master is: ce7eaabad05a012ee5b71c331d82f15cb5fa460e
+Done. Took 1,6 sec
+Changes found

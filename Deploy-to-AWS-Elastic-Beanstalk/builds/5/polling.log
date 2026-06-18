@@ -1,0 +1,14 @@
+Started on 10 серп. 2021 р., 07:32:02
+Started by event from 140.82.115.251 ⇒ http://jenkins.local:8080/github-webhook/ on вт серп. 10 07:32:02 EDT 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 7771e7560cdd174f321599d4bc954e3125a55849 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential id_rsa
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials id_rsa
+ > git ls-remote -h -- git@github.com:rkuzmyn/php-app-for-jenkins.git # timeout=10
+Found 1 remote heads on git@github.com:rkuzmyn/php-app-for-jenkins.git
+[poll] Latest remote head revision on refs/heads/master is: f63d36fb8aca90bb08539f1a01e4dcdd54921c6c
+Done. Took 5,8 sec
+Changes found

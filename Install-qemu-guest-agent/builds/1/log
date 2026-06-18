@@ -1,0 +1,10 @@
+Started by user [8mha:////4GcWV53RiER3DwgW4HfGHTUhKExlfJJAETPbF2abMCJ+AAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL95JxMAJ7FVCe+AAAA[0mcli
+Running as SYSTEM
+Building remotely on [8mha:////4DdohhCFGxgWZdEW0v7MvvWEUsPKxIXt4Z/Cj+3jTj9yAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/dKk0rySUgDdPy90xQAAAA==[0mubuntu (centos ansible) in workspace /root/jenkins/workspace/Install-qemu-guest-agent
+SSH: Connecting from host [jenkins-ubuntu]
+SSH: Connecting with configuration [jenkins-client] ...
+SSH: EXEC: completed after 10,295 ms
+SSH: Disconnecting configuration [jenkins-client] ...
+SSH: Transferred 0 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

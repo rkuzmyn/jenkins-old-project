@@ -1,0 +1,26 @@
+Started by GitHub push by rkuzmyn
+Running as SYSTEM
+Building remotely on [8mha:////4DdohhCFGxgWZdEW0v7MvvWEUsPKxIXt4Z/Cj+3jTj9yAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/dKk0rySUgDdPy90xQAAAA==[0mubuntu (centos ansible) in workspace /root/jenkins/workspace/Auto-Deploy-web-page-from-github
+The recommended git tool is: NONE
+using credential id_rsa
+ > git rev-parse --resolve-git-dir /root/jenkins/workspace/Auto-Deploy-web-page-from-github/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:rkuzmyn/web.git # timeout=10
+Fetching upstream changes from git@github.com:rkuzmyn/web.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials id_rsa
+ > git fetch --tags --force --progress -- git@github.com:rkuzmyn/web.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ce7eaabad05a012ee5b71c331d82f15cb5fa460e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ce7eaabad05a012ee5b71c331d82f15cb5fa460e # timeout=10
+Commit message: "V1.8"
+ > git rev-list --no-walk cae235ab461d4e0c39cb601a733c6d9d9253a5d3 # timeout=10
+SSH: Connecting from host [jenkins-ubuntu]
+SSH: Connecting with configuration [jenkins-client] ...
+SSH: EXEC: completed after 401 ms
+SSH: Disconnecting configuration [jenkins-client] ...
+SSH: Transferred 3 file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

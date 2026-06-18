@@ -1,0 +1,32 @@
+Started by user [8mha:////4EWGUAohH8QmQzZ7FuiYC/gnh30htgiwMgDJQ4EOQNDGAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9nNQKABgZepe+AAAA[0mlex
+Running as SYSTEM
+Building remotely on [8mha:////4Pb087PMPzV+16YRYTg3ziCEPs3c9Rap35nALKJHTV0gAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/cS84syknFTd3MRiIBcAMKjG3s0AAAA=[0mansible-master (centos ansible) in workspace /root/jenkins/workspace/Parametr
+[Parametr] $ /bin/sh -xe /tmp/jenkins3339989149721509740.sh
++ ls -la /var
+загалом 16
+drwxr-xr-x. 21 root root 4096 лип 27 15:29 .
+dr-xr-xr-x. 17 root root  224 лип 13 13:58 ..
+drwxr-xr-x.  2 root root    6 лис  3  2020 adm
+drwxr-xr-x. 10 root root  115 сер  8 16:21 cache
+drwxr-xr-x.  2 root root    6 чер 29 13:32 crash
+drwxr-xr-x.  3 root root   18 лип 13 13:52 db
+drwxr-xr-x.  3 root root   18 лип 13 13:52 empty
+drwxr-xr-x.  2 root root    6 лис  3  2020 ftp
+drwxr-xr-x.  2 root root    6 лис  3  2020 games
+drwxr-xr-x.  2 root root    6 лис  3  2020 gopher
+drwxr-xr-x.  3 root root   18 лип 13 13:50 kerberos
+drwxr-xr-x. 30 root root 4096 сер  8 16:21 lib
+drwxr-xr-x.  2 root root    6 лис  3  2020 local
+lrwxrwxrwx.  1 root root   11 лип 13 13:48 lock -> ../run/lock
+drwxr-xr-x. 10 root root 4096 сер 10 03:32 log
+lrwxrwxrwx.  1 root root   10 лис  3  2020 mail -> spool/mail
+drwxr-xr-x.  2 root root    6 лис  3  2020 nis
+drwxr-xr-x.  2 root root    6 лис  3  2020 opt
+drwxr-xr-x.  2 root root    6 лис  3  2020 preserve
+lrwxrwxrwx.  1 root root    6 лип 13 13:48 run -> ../run
+drwxr-xr-x.  7 root root   72 лип 13 13:51 spool
+drwxrwxrwt.  4 root root  162 сер  9 15:04 tmp
+-rw-r--r--.  1 root root  208 лип 13 13:49 .updated
+drwxr-xr-x.  4 root root   33 сер  8 16:21 www
+drwxr-xr-x.  2 root root    6 лис  3  2020 yp
+Finished: SUCCESS

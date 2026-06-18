@@ -1,0 +1,135 @@
+Started by GitHub push by rkuzmyn
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Deploy-to-AWS-Elastic-Beanstalk
+The recommended git tool is: NONE
+using credential id_rsa
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Deploy-to-AWS-Elastic-Beanstalk/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:rkuzmyn/php-app-for-jenkins.git # timeout=10
+Fetching upstream changes from git@github.com:rkuzmyn/php-app-for-jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials id_rsa
+ > git fetch --tags --force --progress -- git@github.com:rkuzmyn/php-app-for-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 16fc70192984fc313ea2e5a64a3028ac67611dea (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 16fc70192984fc313ea2e5a64a3028ac67611dea # timeout=10
+Commit message: "Version 2.7"
+ > git rev-list --no-walk 1b0428bf8f2caee4b2626836fe61f12edd68a1ba # timeout=10
+AWSEB Deployment Plugin Version 0.3.21 (aws-java-sdk version: 1.11.995)
+Using region: &#039;eu-central-1&#039;
+Zipping contents of Root File Object (Deploy-to-AWS-Elastic-Beanstalk) into tmp file awseb-2481545260036207306.zip (includes=, excludes=)
+Using archive &#039;/tmp/awseb-2481545260036207306.zip&#039;
+bucketName not set. Calling createStorageLocation
+Using s3 Bucket &#039;elasticbeanstalk-eu-central-1-139082822191&#039;
+Uploading file awseb-2481545260036207306.zip as s3://elasticbeanstalk-eu-central-1-139082822191/php-app-for-jenkins-Jenkins-Build-9.zip
+Creating application version Jenkins-Build-9 for application php-app-for-jenkins for path s3://elasticbeanstalk-eu-central-1-139082822191/php-app-for-jenkins-Jenkins-Build-9.zip
+Created version: Jenkins-Build-9
+Using environmentId &#039;e-mnsz7mz4nh&#039;
+No pending Environment Updates. Proceeding.
+Wed Aug 11 12:57:26 EDT 2021 [INFO] Environment health has transitioned from Info to Ok. Application update completed 23 seconds ago and took 11 seconds.
+Wed Aug 11 12:56:26 EDT 2021 [INFO] Environment health has transitioned from Ok to Info. Application update in progress on 1 instance. 0 out of 1 instance completed (running for 5 seconds).
+Wed Aug 11 12:56:24 EDT 2021 [INFO] Environment update completed successfully.
+Wed Aug 11 12:56:23 EDT 2021 [INFO] New application version was deployed to running EC2 instances.
+Wed Aug 11 12:56:20 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:56:17 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:56:14 EDT 2021 [INFO] Deploying new version to instance(s).
+Wed Aug 11 12:56:10 EDT 2021 [INFO] Environment update is starting.
+Wed Aug 11 12:39:27 EDT 2021 [INFO] Environment health has transitioned from Pending to Ok. Initialization completed 40 seconds ago and took 3 minutes.
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Successfully launched environment: Phpappforjenkins-env
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Application available at Phpappforjenkins-env.eba-a8epiadn.eu-central-1.elasticbeanstalk.com.
+Wed Aug 11 12:38:33 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:38:31 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:38:28 EDT 2021 [INFO] Created Load Balancer listener named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:listener/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1/699a90fb4d785afb
+Wed Aug 11 12:38:27 EDT 2021 [INFO] Added instance [i-0ec970718a1ab889c] to your environment.
+Wed Aug 11 12:38:13 EDT 2021 [INFO] Created load balancer named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:loadbalancer/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmLow-V1W8B1ZTXRSP
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmHigh-NP1Z78U9K7A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:9ba332a7-9149-4e9d-b624-6b4e7f20ecba:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleDownPolicy-1G988I36GOIAD
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:19bb2d34-3532-4c5c-969f-35533b57d8a1:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleUpPolicy-K7681GGL06A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Waiting for EC2 instances to launch. This may take a few minutes.
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group named: awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR
+Wed Aug 11 12:36:27 EDT 2021 [INFO] Environment health has transitioned to Pending. Initialization in progress (running for 28 seconds). There are no instances.
+Wed Aug 11 12:36:22 EDT 2021 [INFO] Created security group named: awseb-e-mnsz7mz4nh-stack-AWSEBSecurityGroup-80EHCDN1CUUV
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created security group named: sg-09798597d3420984a
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created target group named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:targetgroup/awseb-AWSEB-1QUIZGBAFK72V/c307e52ecacf6482
+Wed Aug 11 12:35:47 EDT 2021 [INFO] Using elasticbeanstalk-eu-central-1-139082822191 as Amazon S3 storage bucket for environment data.
+Wed Aug 11 12:35:46 EDT 2021 [INFO] createEnvironment is starting.
+Checking health/status of environmentId e-mnsz7mz4nh attempt 1/30
+Environment Status is &#039;Ready&#039;. Moving on.
+Updating environmentId &#039;e-mnsz7mz4nh&#039; with Version Label set to &#039;Jenkins-Build-9&#039;
+Wed Aug 11 13:02:11 EDT 2021 [INFO] Environment update is starting.
+Wed Aug 11 12:57:26 EDT 2021 [INFO] Environment health has transitioned from Info to Ok. Application update completed 23 seconds ago and took 11 seconds.
+Wed Aug 11 12:56:26 EDT 2021 [INFO] Environment health has transitioned from Ok to Info. Application update in progress on 1 instance. 0 out of 1 instance completed (running for 5 seconds).
+Wed Aug 11 12:56:24 EDT 2021 [INFO] Environment update completed successfully.
+Wed Aug 11 12:56:23 EDT 2021 [INFO] New application version was deployed to running EC2 instances.
+Wed Aug 11 12:56:20 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:56:17 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:56:14 EDT 2021 [INFO] Deploying new version to instance(s).
+Wed Aug 11 12:56:10 EDT 2021 [INFO] Environment update is starting.
+Wed Aug 11 12:39:27 EDT 2021 [INFO] Environment health has transitioned from Pending to Ok. Initialization completed 40 seconds ago and took 3 minutes.
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Successfully launched environment: Phpappforjenkins-env
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Application available at Phpappforjenkins-env.eba-a8epiadn.eu-central-1.elasticbeanstalk.com.
+Wed Aug 11 12:38:33 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:38:31 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:38:28 EDT 2021 [INFO] Created Load Balancer listener named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:listener/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1/699a90fb4d785afb
+Wed Aug 11 12:38:27 EDT 2021 [INFO] Added instance [i-0ec970718a1ab889c] to your environment.
+Wed Aug 11 12:38:13 EDT 2021 [INFO] Created load balancer named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:loadbalancer/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmLow-V1W8B1ZTXRSP
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmHigh-NP1Z78U9K7A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:9ba332a7-9149-4e9d-b624-6b4e7f20ecba:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleDownPolicy-1G988I36GOIAD
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:19bb2d34-3532-4c5c-969f-35533b57d8a1:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleUpPolicy-K7681GGL06A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Waiting for EC2 instances to launch. This may take a few minutes.
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group named: awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR
+Wed Aug 11 12:36:27 EDT 2021 [INFO] Environment health has transitioned to Pending. Initialization in progress (running for 28 seconds). There are no instances.
+Wed Aug 11 12:36:22 EDT 2021 [INFO] Created security group named: awseb-e-mnsz7mz4nh-stack-AWSEBSecurityGroup-80EHCDN1CUUV
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created security group named: sg-09798597d3420984a
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created target group named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:targetgroup/awseb-AWSEB-1QUIZGBAFK72V/c307e52ecacf6482
+Wed Aug 11 12:35:47 EDT 2021 [INFO] Using elasticbeanstalk-eu-central-1-139082822191 as Amazon S3 storage bucket for environment data.
+Wed Aug 11 12:35:46 EDT 2021 [INFO] createEnvironment is starting.
+Checking health/status of environmentId e-mnsz7mz4nh attempt 1/30
+Versions reported: (current: Jenkins-Build-8, underDeployment: Jenkins-Build-9). Should I move on? false
+Wed Aug 11 13:03:26 EDT 2021 [INFO] Environment health has transitioned from Info to Ok. Application update completed 61 seconds ago and took 9 seconds.
+Wed Aug 11 13:02:26 EDT 2021 [INFO] Environment health has transitioned from Ok to Info. Application update in progress (running for 1 second).
+Wed Aug 11 13:02:23 EDT 2021 [INFO] Environment update completed successfully.
+Wed Aug 11 13:02:23 EDT 2021 [INFO] New application version was deployed to running EC2 instances.
+Wed Aug 11 13:02:20 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 13:02:17 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 13:02:14 EDT 2021 [INFO] Deploying new version to instance(s).
+Wed Aug 11 13:02:11 EDT 2021 [INFO] Environment update is starting.
+Wed Aug 11 12:57:26 EDT 2021 [INFO] Environment health has transitioned from Info to Ok. Application update completed 23 seconds ago and took 11 seconds.
+Wed Aug 11 12:56:26 EDT 2021 [INFO] Environment health has transitioned from Ok to Info. Application update in progress on 1 instance. 0 out of 1 instance completed (running for 5 seconds).
+Wed Aug 11 12:56:24 EDT 2021 [INFO] Environment update completed successfully.
+Wed Aug 11 12:56:23 EDT 2021 [INFO] New application version was deployed to running EC2 instances.
+Wed Aug 11 12:56:20 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:56:17 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:56:14 EDT 2021 [INFO] Deploying new version to instance(s).
+Wed Aug 11 12:56:10 EDT 2021 [INFO] Environment update is starting.
+Wed Aug 11 12:39:27 EDT 2021 [INFO] Environment health has transitioned from Pending to Ok. Initialization completed 40 seconds ago and took 3 minutes.
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Successfully launched environment: Phpappforjenkins-env
+Wed Aug 11 12:38:46 EDT 2021 [INFO] Application available at Phpappforjenkins-env.eba-a8epiadn.eu-central-1.elasticbeanstalk.com.
+Wed Aug 11 12:38:33 EDT 2021 [INFO] Instance deployment completed successfully.
+Wed Aug 11 12:38:31 EDT 2021 [INFO] Instance deployment: You didn&#039;t include a &#039;composer.json&#039; file in your source bundle. The deployment didn&#039;t install Composer dependencies.
+Wed Aug 11 12:38:28 EDT 2021 [INFO] Created Load Balancer listener named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:listener/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1/699a90fb4d785afb
+Wed Aug 11 12:38:27 EDT 2021 [INFO] Added instance [i-0ec970718a1ab889c] to your environment.
+Wed Aug 11 12:38:13 EDT 2021 [INFO] Created load balancer named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:loadbalancer/app/awseb-AWSEB-1SMFXW7VTSHEK/3bc42660816637f1
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmLow-V1W8B1ZTXRSP
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created CloudWatch alarm named: awseb-e-mnsz7mz4nh-stack-AWSEBCloudwatchAlarmHigh-NP1Z78U9K7A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:9ba332a7-9149-4e9d-b624-6b4e7f20ecba:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleDownPolicy-1G988I36GOIAD
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group policy named: arn:aws:autoscaling:eu-central-1:139082822191:scalingPolicy:19bb2d34-3532-4c5c-969f-35533b57d8a1:autoScalingGroupName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR:policyName/awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingScaleUpPolicy-K7681GGL06A6
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Waiting for EC2 instances to launch. This may take a few minutes.
+Wed Aug 11 12:37:24 EDT 2021 [INFO] Created Auto Scaling group named: awseb-e-mnsz7mz4nh-stack-AWSEBAutoScalingGroup-13PKGL570WUWR
+Wed Aug 11 12:36:27 EDT 2021 [INFO] Environment health has transitioned to Pending. Initialization in progress (running for 28 seconds). There are no instances.
+Wed Aug 11 12:36:22 EDT 2021 [INFO] Created security group named: awseb-e-mnsz7mz4nh-stack-AWSEBSecurityGroup-80EHCDN1CUUV
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created security group named: sg-09798597d3420984a
+Wed Aug 11 12:36:07 EDT 2021 [INFO] Created target group named: arn:aws:elasticloadbalancing:eu-central-1:139082822191:targetgroup/awseb-AWSEB-1QUIZGBAFK72V/c307e52ecacf6482
+Wed Aug 11 12:35:47 EDT 2021 [INFO] Using elasticbeanstalk-eu-central-1-139082822191 as Amazon S3 storage bucket for environment data.
+Wed Aug 11 12:35:46 EDT 2021 [INFO] createEnvironment is starting.
+Checking health/status of environmentId e-mnsz7mz4nh attempt 2/30
+Versions reported: (current: Jenkins-Build-9, underDeployment: Jenkins-Build-9). Should I move on? false
+Environment Status is &#039;Ready&#039; and Health is &#039;Green&#039;. Moving on.
+Deployment marked as &#039;successful&#039;. Starting post-deployment cleanup.
+VersionLabels are matching for environmentId:&#039;e-mnsz7mz4nh&#039; and version:&#039;Jenkins-Build-9&#039;)
+Cleaning up temporary file /tmp/awseb-2481545260036207306.zip
+Finished: SUCCESS

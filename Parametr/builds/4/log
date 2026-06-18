@@ -1,0 +1,199 @@
+Started by user [8mha:////4EWGUAohH8QmQzZ7FuiYC/gnh30htgiwMgDJQ4EOQNDGAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9nNQKABgZepe+AAAA[0mlex
+Running as SYSTEM
+Building remotely on [8mha:////4Pb087PMPzV+16YRYTg3ziCEPs3c9Rap35nALKJHTV0gAAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYJ/eT83ILSktQi/cS84syknFTd3MRiIBcAMKjG3s0AAAA=[0mansible-master (centos ansible) in workspace /root/jenkins/workspace/Parametr
+[Parametr] $ /bin/sh -xe /tmp/jenkins4770487913989985292.sh
++ ls -la /etc
+загалом 1144
+drwxr-xr-x. 91 root root     8192 сер  9 15:03 .
+dr-xr-xr-x. 17 root root      224 лип 13 13:58 ..
+-rw-r--r--.  1 root root       16 лип 13 13:59 adjtime
+-rw-r--r--.  1 root root     1529 тра 15  2020 aliases
+drwxr-xr-x.  2 root root     4096 сер  8 14:41 alternatives
+-rw-r--r--.  1 root root      541 лис  8  2019 anacrontab
+drwxr-xr-x.  4 root root       69 сер  8 16:05 ansible
+-rw-r--r--.  1 root root       55 лют  2  2021 asound.conf
+drwxr-x---.  4 root root      100 лип 13 14:18 audit
+drwxr-xr-x.  3 root root       46 лип 13 13:57 authselect
+drwxr-xr-x.  2 root root       55 лип 13 13:52 bash_completion.d
+-rw-r--r--.  1 root root     3019 тра 15  2020 bashrc
+-rw-r--r--.  1 root root      429 лис  8  2019 bindresvport.blacklist
+drwxr-xr-x.  2 root root        6 лип 20 20:56 binfmt.d
+-rw-r--r--.  1 root root       30 тра 27 09:20 centos-release
+-rw-r--r--.  1 root root       42 тра 27 09:20 centos-release-upstream
+drwxr-xr-x.  2 root root        6 кві 26  2020 chkconfig.d
+-rw-r--r--.  1 root root     1085 тра 10  2019 chrony.conf
+-rw-r-----.  1 root chrony    540 тра 10  2019 chrony.keys
+drwxr-xr-x.  2 root root       26 лип 13 13:51 cifs-utils
+drwxr-xr-x.  2 root root       21 лип 13 13:51 cron.d
+drwxr-xr-x.  2 root root       23 лип 13 13:51 cron.daily
+-rw-r--r--.  1 root root        0 лис  8  2019 cron.deny
+drwxr-xr-x.  2 root root       22 лип 13 13:51 cron.hourly
+drwxr-xr-x.  2 root root        6 січ 12  2021 cron.monthly
+-rw-r--r--.  1 root root      451 січ 12  2021 crontab
+drwxr-xr-x.  2 root root        6 січ 12  2021 cron.weekly
+drwxr-xr-x.  6 root root       81 лип 13 13:50 crypto-policies
+-rw-------.  1 root root        0 лип 13 13:46 crypttab
+-rw-r--r--.  1 root root     1629 тра 15  2020 csh.cshrc
+-rw-r--r--.  1 root root     1078 тра 15  2020 csh.login
+drwxr-xr-x.  4 root root       78 лип 13 13:49 dbus-1
+drwxr-xr-x.  4 root root       31 сер  8 14:40 dconf
+drwxr-xr-x.  2 root root       33 лип 13 13:59 default
+drwxr-xr-x.  2 root root       23 лип 13 13:50 depmod.d
+drwxr-x---.  3 root root       45 лип 13 13:51 dhcp
+-rw-r--r--.  1 root root     4536 кві 26  2020 DIR_COLORS
+-rw-r--r--.  1 root root     5214 кві 26  2020 DIR_COLORS.256color
+-rw-r--r--.  1 root root     4618 кві 26  2020 DIR_COLORS.lightbgcolor
+drwxr-xr-x.  8 root root      128 лип 13 13:49 dnf
+-rw-r--r--.  1 root root      117 лют 12 04:02 dracut.conf
+drwxr-xr-x.  2 root root        6 лют 12 04:02 dracut.conf.d
+-rw-r--r--.  1 root root        0 тра 15  2020 environment
+-rw-r--r--.  1 root root     1362 вер 10  2018 ethertypes
+-rw-r--r--.  1 root root        0 вер 10  2018 exports
+-rw-r--r--.  1 root root       66 вер 10  2018 filesystems
+drwxr-x---.  7 root root      133 лип 13 13:51 firewalld
+drwxr-xr-x.  3 root root       38 сер  8 14:40 fonts
+-rw-r--r--.  1 root root      579 лип 13 13:46 fstab
+drwxr-xr-x.  2 root root       25 лип 13 13:49 gcrypt
+drwxr-xr-x.  2 root root        6 тра 15  2020 gnupg
+-rw-r--r--.  1 root root       94 тра 10  2019 GREP_COLORS
+drwxr-xr-x.  4 root root       40 лип 13 13:50 groff
+-rw-r--r--.  1 root root      514 лип 27 13:47 group
+-rw-r--r--.  1 root root      501 лип 13 13:52 group-
+lrwxrwxrwx.  1 root root       22 бер  2 16:03 grub2.cfg -> ../boot/grub2/grub.cfg
+drwx------.  2 root root      288 лип 13 13:57 grub.d
+----------.  1 root root      404 лип 27 13:47 gshadow
+----------.  1 root root      393 лип 13 13:52 gshadow-
+drwxr-xr-x.  3 root root       20 лип 13 13:50 gss
+-rw-r--r--.  1 root root        9 вер 10  2018 host.conf
+-rw-r--r--.  1 root root       15 сер  7 17:52 hostname
+-rw-r--r--.  1 root root      158 вер 10  2018 hosts
+drwxr-xr-x.  5 root root      105 сер  8 16:21 httpd
+-rw-r--r--.  1 root root     4849 січ 22  2021 idmapd.conf
+lrwxrwxrwx.  1 root root       11 кві 26  2020 init.d -> rc.d/init.d
+-rw-r--r--.  1 root root      490 лип 20 20:56 inittab
+-rw-r--r--.  1 root root      942 вер 10  2018 inputrc
+drwxr-xr-x.  2 root root      159 лип 13 13:51 iproute2
+-rw-r--r--.  1 root root       23 тра 27 09:20 issue
+-rw-r--r--.  1 root root       22 тра 27 09:20 issue.net
+drwxr-xr-x.  3 root root       26 сер  8 14:40 .java
+drwxr-xr-x.  4 root root       45 сер  8 14:40 java
+drwxr-xr-x.  2 root root        6 тра 30  2019 jvm
+drwxr-xr-x.  2 root root        6 тра 30  2019 jvm-commmon
+drwxr-xr-x.  4 root root       33 лип 13 13:52 kdump
+-rw-r--r--.  1 root root     8550 лип 13 13:52 kdump.conf
+drwxr-xr-x.  4 root root       41 лип 20 20:56 kernel
+-rw-r--r--.  1 root root      812 січ  8  2021 krb5.conf
+drwxr-xr-x.  2 root root       55 лип 13 13:52 krb5.conf.d
+-rw-r--r--.  1 root root    18599 сер  8 16:21 ld.so.cache
+-rw-r--r--.  1 root root       28 бер 11 14:41 ld.so.conf
+drwxr-xr-x.  2 root root      132 лип 28 02:33 ld.so.conf.d
+-rw-r-----.  1 root root      191 лис  4  2019 libaudit.conf
+drwxr-xr-x.  2 root root      246 лип 13 13:50 libibverbs.d
+drwxr-xr-x.  2 root root       35 лип 13 13:49 libnl
+drwxr-xr-x.  6 root root       70 лип 13 13:49 libreport
+drwxr-xr-x.  2 root root       62 лип 13 13:49 libssh
+-rw-r--r--.  1 root root     2391 лип 23  2015 libuser.conf
+-rw-r--r--.  1 root root       19 лип 13 13:59 locale.conf
+lrwxrwxrwx.  1 root root       38 лип 13 13:59 localtime -> ../usr/share/zoneinfo/America/New_York
+-rw-r--r--.  1 root root     2512 гру  1  2020 login.defs
+-rw-r--r--.  1 root root      438 лют 19  2018 logrotate.conf
+drwxr-xr-x.  2 root root      142 сер  8 16:21 logrotate.d
+drwxr-xr-x.  6 root root      100 лип 13 13:52 lvm
+-r--r--r--.  1 root root       33 лип 13 13:50 machine-id
+-rw-r--r--.  1 root root      111 кві  7 10:37 magic
+-rw-r--r--.  1 root root      272 тра 11  2017 mailcap
+-rw-r--r--.  1 root root     5122 чер 29 13:32 makedumpfile.conf.sample
+-rw-r--r--.  1 root root     5165 тра 11  2019 man_db.conf
+drwxr-xr-x.  3 root root       32 лип 13 13:52 microcode_ctl
+-rw-r--r--.  1 root root    60352 тра 11  2017 mime.types
+-rw-r--r--.  1 root root     1108 лип 17  2020 mke2fs.conf
+drwxr-xr-x.  2 root root       93 лип 13 13:51 modprobe.d
+drwxr-xr-x.  2 root root        6 лип 20 20:56 modules-load.d
+-rw-r--r--.  1 root root        0 вер 10  2018 motd
+lrwxrwxrwx.  1 root root       19 лип 13 13:50 mtab -> ../proc/self/mounts
+-rw-r--r--.  1 root root     9450 тра 11  2019 nanorc
+-rw-r--r--.  1 root root      767 лис  8  2019 netconfig
+drwxr-xr-x.  7 root root      134 лип 13 13:51 NetworkManager
+-rw-r--r--.  1 root root       58 вер 10  2018 networks
+drwx------.  3 root root       66 лип 13 13:51 nftables
+-rw-r--r--.  1 root root     2215 лип 13 13:50 nsswitch.conf
+-rw-r--r--.  1 root root     2197 бер 11 14:43 nsswitch.conf.bak
+drwxr-xr-x.  3 root root       36 лип 13 13:50 openldap
+drwxr-xr-x.  2 root root        6 лис  3  2020 opt
+lrwxrwxrwx.  1 root root       21 тра 27 09:20 os-release -> ../usr/lib/os-release
+drwxr-xr-x.  2 root root     4096 лип 13 13:52 pam.d
+-rw-r--r--.  1 root root     1097 лип 27 13:47 passwd
+-rw-r--r--.  1 root root     1044 лип 13 13:52 passwd-
+drwxr-xr-x.  3 root root       21 лип 13 13:49 pkcs11
+drwxr-xr-x.  8 root root       88 сер  8 14:40 pki
+drwxr-xr-x.  2 root root       28 лип 13 13:51 plymouth
+drwxr-xr-x.  5 root root       52 лип 13 13:49 pm
+drwxr-xr-x.  5 root root       72 лип 13 13:51 polkit-1
+drwxr-xr-x.  2 root root        6 січ 19  2021 popt.d
+drwxr-xr-x.  2 root root       24 лип 13 13:50 prelink.conf.d
+-rw-r--r--.  1 root root      233 вер 10  2018 printcap
+-rw-r--r--.  1 root root     2123 тра 15  2020 profile
+drwxr-xr-x.  2 root root     4096 лип 13 13:50 profile.d
+-rw-r--r--.  1 root root     6568 вер 10  2018 protocols
+-rw-------.  1 root root        0 лип 13 13:50 .pwd.lock
+drwxr-xr-x.  3 root root       50 лип 27 13:38 qemu-ga
+drwxr-xr-x.  2 root root       27 лип 27 13:38 qemu-kvm
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc0.d -> rc.d/rc0.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc1.d -> rc.d/rc1.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc2.d -> rc.d/rc2.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc3.d -> rc.d/rc3.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc4.d -> rc.d/rc4.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc5.d -> rc.d/rc5.d
+lrwxrwxrwx.  1 root root       10 кві 26  2020 rc6.d -> rc.d/rc6.d
+drwxr-xr-x. 10 root root      127 лип 20 20:56 rc.d
+lrwxrwxrwx.  1 root root       13 лип 20 20:56 rc.local -> rc.d/rc.local
+drwxr-xr-x.  3 root root       38 лип 13 13:50 rdma
+lrwxrwxrwx.  1 root root       14 тра 27 09:20 redhat-release -> centos-release
+-rw-r--r--.  1 root root      265 сер  9 15:03 resolv.conf
+drwxr-xr-x.  3 root root       24 лип 13 13:51 rhsm
+-rw-r--r--.  1 root root     1634 сер  1  2018 rpc
+drwxr-xr-x.  2 root root       25 чер  2 14:15 rpm
+-rw-r--r--.  1 root root     3186 чер  1 16:28 rsyslog.conf
+drwxr-xr-x.  2 root root        6 чер  1 16:32 rsyslog.d
+drwxr-xr-x.  2 root root       35 лип 13 13:51 rwtab.d
+drwxr-xr-x.  2 root root        6 тра 15  2020 sasl2
+drwxr-xr-x.  7 root root     4096 лип 13 13:50 security
+drwxr-xr-x.  3 root root       57 лип 13 13:51 selinux
+-rw-r--r--.  1 root root   692252 тра 15  2020 services
+-rw-r--r--.  1 root root      216 бер 19 01:05 sestatus.conf
+----------.  1 root root      678 лип 27 13:47 shadow
+----------.  1 root root      656 лип 13 13:59 shadow-
+-rw-r--r--.  1 root root       44 вер 10  2018 shells
+drwxr-xr-x.  2 root root       62 лип 13 13:49 skel
+drwxr-xr-x.  3 root root      245 лип 13 14:18 ssh
+drwxr-xr-x.  2 root root       19 лип 13 13:50 ssl
+drwx------.  4 sssd sssd       31 лип 13 13:51 sssd
+-rw-r--r--.  1 root root        0 вер 10  2018 subgid
+-rw-r--r--.  1 root root        0 вер 10  2018 subuid
+-rw-r-----.  1 root root     1786 лют  4  2021 sudo.conf
+-r--r-----.  1 root root     4328 лют  4  2021 sudoers
+drwxr-x---.  2 root root        6 лют  4  2021 sudoers.d
+-rw-r-----.  1 root root     3181 лют  4  2021 sudo-ldap.conf
+drwxr-xr-x.  5 root root     4096 сер  8 16:21 sysconfig
+-rw-r--r--.  1 root root      449 лип 20 20:56 sysctl.conf
+drwxr-xr-x.  2 root root       28 лип 20 20:56 sysctl.d
+drwxr-xr-x.  4 root root      150 лип 20 20:56 systemd
+lrwxrwxrwx.  1 root root       14 тра 27 09:20 system-release -> centos-release
+-rw-r--r--.  1 root root       23 тра 27 09:20 system-release-cpe
+-rw-r-----.  1 root tss      7046 лис 16  2020 tcsd.conf
+drwxr-xr-x.  2 root root        6 тра 10  2019 terminfo
+drwxr-xr-x.  2 root root        6 лип 20 20:56 tmpfiles.d
+drwxr-xr-x.  3 root root      136 лип 13 13:52 tuned
+drwxr-xr-x.  4 root root       68 лип 28 02:36 udev
+drwxr-xr-x.  2 root root       45 лип 13 13:51 unbound
+-rw-r--r--.  1 root root      208 лип 13 13:49 .updated
+-rw-r--r--.  1 root root       32 лип 13 13:59 vconsole.conf
+-rw-r--r--.  1 root root     1204 чер 18  2020 virc
+drwxr-xr-x.  6 root root       70 лип 13 13:50 X11
+-rw-r--r--.  1 root root      642 гру  9  2016 xattr.conf
+drwxr-xr-x.  4 root root       38 лип 13 13:50 xdg
+drwxr-xr-x.  2 root root        6 лис  3  2020 xinetd.d
+drwxr-xr-x.  2 root root       57 лип 13 13:52 yum
+lrwxrwxrwx.  1 root root       12 бер 11 14:39 yum.conf -> dnf/dnf.conf
+drwxr-xr-x.  2 root root     4096 сер  7 17:49 yum.repos.d
+Finished: SUCCESS

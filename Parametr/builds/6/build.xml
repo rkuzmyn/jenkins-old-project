@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>FOLDER_NAME</name>
+          <description>Please enter Linux folder name to list</description>
+          <value>/home</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.FileParameterValue>
+          <name>uploaded_file</name>
+          <originalFileName>unnamed.jpg</originalFileName>
+          <location>uploaded_file</location>
+        </hudson.model.FileParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>FOLDER_NAME</string>
+        <string>uploaded_file</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>lex</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>71</queueId>
+  <timestamp>1628564298662</timestamp>
+  <startTime>1628564298671</startTime>
+  <result>FAILURE</result>
+  <duration>665</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>ansible-master</builtOn>
+  <workspace>/root/jenkins/workspace/Parametr</workspace>
+  <hudsonVersion>2.289.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

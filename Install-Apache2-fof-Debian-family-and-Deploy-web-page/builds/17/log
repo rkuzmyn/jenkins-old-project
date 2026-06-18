@@ -1,0 +1,29 @@
+Started by upstream project "[8mha:////4FSeHBTARXluTemNWOvvQy5fsg1wUpC0XpMQyY1VirwuAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgY5/az8JH3PvOKSxJwc3cLU3FLd9NLU4hLdxPTUvBJ9AI7rtTDTAAAA[0mInstall-qemu-guest-agent" build number [8mha:////4O7z9tR13F0nL0XA00Fa7scRn+zYR14JnlocXTryRHQHAAAAqh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnn9rPwkfc+84pLEnBzdwtTcUt300tTiEt3E9NS8En1jAHtiGdzUAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4EWGUAohH8QmQzZ7FuiYC/gnh30htgiwMgDJQ4EOQNDGAAAAlR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZO/dLi1CL9nNQKABgZepe+AAAA[0mlex
+Running as SYSTEM
+Building remotely on [8mha:////4DdohhCFGxgWZdEW0v7MvvWEUsPKxIXt4Z/Cj+3jTj9yAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/dKk0rySUgDdPy90xQAAAA==[0mubuntu (centos ansible) in workspace /root/jenkins/workspace/Install-Apache2-fof-Debian-family-and-Deploy-web-page
+The recommended git tool is: NONE
+using credential id_rsa
+ > git rev-parse --resolve-git-dir /root/jenkins/workspace/Install-Apache2-fof-Debian-family-and-Deploy-web-page/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:rkuzmyn/web.git # timeout=10
+Fetching upstream changes from git@github.com:rkuzmyn/web.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials id_rsa
+ > git fetch --tags --force --progress -- git@github.com:rkuzmyn/web.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 674065610f9201c9faaccabf0310fbb14ec255c9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 674065610f9201c9faaccabf0310fbb14ec255c9 # timeout=10
+Commit message: "V1.0"
+ > git rev-list --no-walk 674065610f9201c9faaccabf0310fbb14ec255c9 # timeout=10
+SSH: Connecting from host [jenkins-ubuntu]
+SSH: Connecting with configuration [jenkins-client] ...
+SSH: EXEC: completed after 5,429 ms
+SSH: EXEC: completed after 408 ms
+SSH: Disconnecting configuration [jenkins-client] ...
+SSH: Transferred 3 ( 0 + 3 ) file(s)
+Build step 'Send files or execute commands over SSH' changed build result to SUCCESS
+Finished: SUCCESS

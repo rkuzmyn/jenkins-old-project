@@ -1,0 +1,13 @@
+Started on 9 серп. 2021 р., 17:31:00
+Using strategy: Default
+[poll] Last Built Revision: Revision 674065610f9201c9faaccabf0310fbb14ec255c9 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential id_rsa
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials id_rsa
+ > git ls-remote -h -- git@github.com:rkuzmyn/web.git # timeout=10
+Found 1 remote heads on git@github.com:rkuzmyn/web.git
+[poll] Latest remote head revision on refs/heads/master is: 674065610f9201c9faaccabf0310fbb14ec255c9 - already built by 17
+Done. Took 1,7 sec
+No changes
